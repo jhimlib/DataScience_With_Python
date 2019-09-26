@@ -1,0 +1,43 @@
+problem solution approch
+
+Model selection -> estimator object -> Model training->Predictions->Model Tuning->Accuracy
+
+Best Practices:
+1) Create seperate objects for feature and response.
+2) Ensure that feature & response have only numeric values.
+3) Feature and response should be in the form of NumPy ndarray.
+4) Since features and response would be in the form of arrays, they would have shapes and sizes
+5) Features are always mapped as x and response is mapped as y.
+
+
+1) supervised Learning Models
+Linear Regression
+  
+ 
+Logistic Regression (uses all the training set. no split of data. Provide new data to test)
+    -KNN Neighbor
+    -Logistic Regression
+    
+2) unsupervised Learning Models
+K-Means Clustering 
+    - no labels/response
+    -find simalarities or clusters
+    -assumptions based on domain knowledge
+    
+ Dimensionality Reduction- reduce features for data with multiple dimensions
+     -PCA
+     -drop features will null
+     -remove data with lower variance
+     
+3) Create Pipelines:
+ contains more than one estimator
+ 
+4) Model Persistence: no need to retrain a model
+  -Pickle
+  -sklearn joblib
+5)Metric Functions
+    Classification: metrics.accuracy_score, average_presision_score
+    Clustering:metrics.adjusted_rand_score
+    Regression: metrics.mean_absolute_error, mean_squared_error, median_absolute_error
+
+    

@@ -1,0 +1,11 @@
+Hadoop used Disk I/O :
+    harddrive/cpu
+Spark uses In-Memory: 
+    harddrive/cpu/memory
+     more time efficient
+     Resilient Distributed Dataset(RDD)
+     if memory insufficient , then it writes to disk
+     
+     
+  Spark Tools:
+  Spark SQL, Spark Streaming , MLlib, GraphX

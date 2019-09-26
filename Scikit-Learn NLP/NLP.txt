@@ -1,0 +1,39 @@
+major libraries:
+1)NLTK
+2)Scikit-Learn
+3)TextBlob
+4)spaCy
+
+StopWords:
+Bag Of words: convert text data into numerical feature vecotos with a fixed size
+
+Steps:
+Tokenization(assign a fixed integer id to each word) ->Counting(No. of occurance of each word)->Store(Store as the value feature)
+
+countVectoriser class
+   sklearn.feature_extraction.text.CountVectorizer(..)
+   
+  
+ Model Training:
+ Naive Baise Classifier:
+ 
+ used for sentiment analysis,email spam detection,categorization of document and language detection
+ sklearn.naive_bayes.MultinomialNB(alpha=1.0,fit_prior=True,Class_prior=None)
+ 
+ Pipeline:
+ 
+ Vectorizer: conver text into numeric vector matrix
+ Transformer: Extract feature
+ document Classifier: train model
+
+
+
+
+
+
+
+
+
+
+
+

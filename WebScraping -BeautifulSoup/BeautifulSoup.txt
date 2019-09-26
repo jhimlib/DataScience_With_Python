@@ -1,0 +1,26 @@
+
+
+Various Parsers:
+html.parser
+lxml html
+lxml xml
+html5lib
+
+Types of Objects:
+Tag
+Navigable String
+BeautifulSoup
+Comment
+
+filteres
+string
+regular expr
+list
+function
+
+search method:popular methods
+find_all()
+find()
+
+SoupStrainer: to scrap part of a document.
+                don't work with HTML5lib parser
